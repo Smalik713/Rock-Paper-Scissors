@@ -1,0 +1,133 @@
+body{
+    background-color: burlywood;
+}
+
+.title-flex-container{
+    text-align: center;
+    border: 2px solid black;
+}
+
+
+
+/*---------------------Middle Row---------------------------*/
+.middle-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+
+    border: 2px solid black;
+}
+
+.charmander-button {
+    width:250px;
+    height: 250px;
+    display: block;         /*Centers the Google logo */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    
+}
+
+.squirtle-button {
+    width:250px;
+    height: 250px;
+    display: block;         /*Centers the Google logo */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.bulbasaur-button {
+    width:250px;
+    height: 250px;
+    display: block;         /*Centers the Google logo */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+h1{
+    font-size: 50px;
+}
+
+
+
+
+/*---------------------Third Row---------------------------*/
+.third-row-container {
+    background-color: yellow;
+
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1/3fr 1/3fr;
+    justify-items: center;
+    margin: 20px;
+    
+    
+    
+    
+
+    
+    
+
+
+}
+.player-choice {
+    margin-left: 65px;
+    border: 2px solid black;
+}
+.player-choice-display {
+    font-size: 10px;
+}
+
+.opponent-choice {
+    margin-left: 95px;
+    border: 2px solid black; 
+}
+
+.opponent-choice-display {
+    font-size: 10px;
+    
+    
+}
+
+.player-choice-button {
+    width:200px;
+    height: 200px;
+    margin-top: 20px;
+    border: 2px solid black;
+    
+}
+
+.opponent-choice-button {
+    width:200px;
+    height: 200px;
+    margin-top: 20px;
+    border: 2px solid black;
+    
+}
+
+
+
+/*-----------bottom-row---------------*/
+
+.bottom-flex-container {
+    display: grid;
+
+    border: 2px solid black;
+}
+
+.bottom1 {
+    text-align: center;
+    
+    
+    border: 2px solid black;
+}
+
+.bottom-hints {
+    text-align: center;
+    list-style: none;
+}
