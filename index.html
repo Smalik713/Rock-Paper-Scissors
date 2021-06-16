@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script charset="utf-8" src="app.js"></script>
     <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="#">
 </head>
 <body>
 
@@ -18,24 +19,25 @@
     <!-- Game buttons-->
     
 
-    <div class = "middle-container">
-        <div class= "chamander-grid-button">
-            <button>
-                <img class="charmander-button" src= "charmander.jpg"/>
-            </button>
-        </div>
+    <div class = "options">
+        
+            <div class = option id="charmanderBtn">
+                <img class="btn-display" src= "charmander.jpg"/> 
+            </div>
+        
 
-        <div class= "squirtle-grid-button">
-            <button>
-                <img class="squirtle-button" src= "squirtle.jpg" />
-            </button>
-        </div>
+        
+            <div class = option id="squirtleBtn">
+                <img class="btn-display" src= "squirtle.jpg" /> 
+            </div>
+        
 
-        <div class= "bulbasaur-grid-button">
-            <button>
-                <img class="bulbasaur-button" src= "bulbasaur.jpeg" />
-            </button>
-        </div>
+       
+            <bdiv class = option id="bulbasaurBtn">
+                <img class="btn-display" src= "bulbasaur.jpeg" /> 
+            </div>
+
+        
 
     </div>
 
@@ -43,25 +45,18 @@
     <!--------Third Row------------->
     <div>
         <div class= "third-row-container">
-            <div class = "player-choice"> Player Chose: <input class= "player-choice-display"> </input>
-
-            </div>
             
-            <div class = "opponent-choice"> Opponent Chose: <input class= "opponent-choice-display"> </input>
 
+            <div class= "score-board">
+                <div class= "badge" id="user-label"> player</div>
+                <div class= "badge" id= "computer-label"> comp</div>
+                <span id= "user-score">0</span>:<span id= "comp-score">0</span>  
             </div>
 
-            <div class= "player-choice-box">
-                <button class = "player-choice-button">
-
-                </button>
+            <div class = "result">
+                <p>Charmander Defeats Bulbasaur! You Win!</p>
 
             </div>
-
-            <div class= "opponent-choice-box">
-                <button class = "opponent-choice-button">
-                    
-                </button>
 
             </div>
 
