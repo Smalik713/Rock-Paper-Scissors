@@ -4,16 +4,18 @@
     <meta charset="utf-8" />
     <title>App</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script charset="utf-8" src="app.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="#">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&display=swap" rel="stylesheet"> 
 </head>
 <body>
 
     <!-- Game Title-->
     <div class= "title-flex-container">
-        <h1>Choose Your Pokemon!</h1>
-        <h2>Do you have what it takes? To be the best that no one ever was?</h2>
+        <img class="logo_image" src= "logo.png">
+        <h2 class="text_animation">Do you have what it takes? To be the best that no one ever was?</h2>
     </div>
 
     <!-- Game buttons-->
@@ -21,23 +23,21 @@
 
     <div class = "options">
         
-            <div class = option id="charmanderBtn">
-                <img class="btn-display" src= "charmander.jpg"/> 
-            </div>
+        <div class ="option" id="c">
+            <img class="btn-display" src= "charmander.jpg"/> 
+        </div>
         
-
-        
-            <div class = option id="squirtleBtn">
-                <img class="btn-display" src= "squirtle.jpg" /> 
-            </div>
+      
+        <div class = "option" id="s">
+            <img class="btn-display" src= "squirtle.jpg" /> 
+        </div>
         
 
        
-            <bdiv class = option id="bulbasaurBtn">
-                <img class="btn-display" src= "bulbasaur.jpeg" /> 
-            </div>
+        <div class = "option" id="b">
+            <img class="btn-display" src= "bulbasaur.jpeg" /> 
+        </div>
 
-        
 
     </div>
 
@@ -49,12 +49,12 @@
 
             <div class= "score-board">
                 <div class= "badge" id="user-label"> player</div>
-                <div class= "badge" id= "computer-label"> comp</div>
+                <div class= "badge" id= "computer-label"> Red</div>
                 <span id= "user-score">0</span>:<span id= "comp-score">0</span>  
             </div>
 
             <div class = "result">
-                <p>Charmander Defeats Bulbasaur! You Win!</p>
+                <p class="text_animation">Choose Your Pokemon!</p>
 
             </div>
 
@@ -91,6 +91,6 @@
 
 
 
-
+<script charset="utf-8" src="app.js"></script>
 </body>
 </html>
